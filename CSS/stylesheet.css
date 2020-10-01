@@ -344,6 +344,31 @@ a {
   color: gray;
 }
 
+@media only screen and (max-width: 800px) {
+  .three-software img {
+    display: none;
+  }
+  .learning-paragraph {
+    display: none;
+  }
+  .article-three-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .article-three {
+    background-color: white;
+  }
+  .three-software {
+    background-color: lightgrey;
+  }
+  .three-software:hover {
+    background-color: white;
+  }
+  .three-software h4 {
+    padding: 24px;
+  }
+}
+
 /* article four  */
 
 .article-four {
